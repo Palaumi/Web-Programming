@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/PW2.css" type="text/css" rel="stylesheet" />
+    <title>
+        PW-2
+    </title>
+</head>
+<body>
+    <div>
+        <h1>Form Validation</h1>
+        <form class="form">
+          <table>
+            <tr class="form-group">
+              <td><label for="username">Username:</label></td>
+              <td><input type="text" id="username" name="username" placeholder="Enter name" class="form-control"/></td>
+            </tr>
+            <tr class="form-group">
+              <td><label for="pwd">Password:</label></td>
+              <td><input type="password" id="password" name="password" placeholder="password" class="form-control"/> <br /></td>
+            </tr>
+            <tr class="form-group">
+              <td><label for="pwd">Phone:</label></td>
+              <td><input type="text" id="phone" name="phone" placeholder="phone" class="form-control"/> <br /></td>
+            </tr>
+            <tr colspan="2">
+            <td><input type="button" value="Validate" id="validateBtn" class="btn btn-default" onclick="validate()"/></td>
+          </tr>
+          </table>
+          <br>
+          <span id="error"></span>
+        </form>
+    </div>
+    <script src="js/pw2.js"> </script>
+</body>
+</html>

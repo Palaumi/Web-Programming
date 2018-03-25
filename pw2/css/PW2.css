@@ -1,0 +1,9 @@
+label{
+    width: 70px;
+  }
+  ul.error {
+    color: red;
+  }
+  span  {
+    color: green;
+  }
